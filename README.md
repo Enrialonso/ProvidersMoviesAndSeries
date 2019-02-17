@@ -6,12 +6,36 @@ From this repository you can have access to:
 
 Json file with all the providers and contents of series and movies with the following format:
 
+```json
+{
+        "imdb_score": 8.5,
+        "original_title": "Avengers: Infinity War",
+        "providers": {
+            "buy": [
+                {
+                    "currency": "EUR",
+                    "price": 11.99,
+                    "provider": "Itunes",
+                    "url": "https://itunes.apple.com/es/movie/vengadores-infinity-war/id1370714709?uo=4&at=1000l3V2"
+                }
+            ],
+            "flatrate": [],
+            "rent": []
+        },
+        "title": "Vengadores: Infinity War",
+        "tmdb_id": 299536,
+        "tmdb_score": 8.3,
+        "type": "movie",
+        "year": 2018
+    },
+```
+
 Dump of MongoDB with the content of movies and series with its suppliers:
 
 Shows the content you can find within the shared files:
 
 | Poster 	| Original Title 	| Title    	| Year   	| Score    | Providers 	|
-|:--------:	|:----------------:	|:----------:	|:--------:	|:------------:	|-----------	|
+|:--------:	|:---------:	|:-------:	|:--------:	|:------------:	|---------------	|
 | ![Vengadores: Infinity War](https://image.tmdb.org/t/p/w92/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg "Vengadores: Infinity War")  	    | Avengers: Infinity War        	    | Vengadores: Infinity War    	| 2018 	    | **IMDB:** 8.5 <br>**TMDB:** 8.3           	| Flatrate: <br>**Movistar**: [LINK](http://ver.movistarplus.es/ficha/vengadores-infinity-war?id=1460959)<br>For Buy: <br>**Itunes** - price: 11.99 eur [LINK](https://itunes.apple.com/es/movie/vengadores-infinity-war/id1370714709?uo=4&at=1000l3V2)<br>**Google play** - price: 13.99 eur [LINK](https://play.google.com/store/movies/details/Vengadores_Infinity_War?gl=ES&hl=en&id=Q1JilksfBvQ)<br>**Rakuten** - price: 13.99 eur [LINK](https://rakuten.tv/es/movies/vengadores-infinity-war-extras)<br>**Microsoft store** - price: 11.99 eur [LINK](https://www.microsoft.com/es-es/p/vengadores-infinity-war-bonus/8d6kgwxn2fw2?ct=movie)<br>          	|
 | ![Asesinato en el Orient Express](https://image.tmdb.org/t/p/w92/iBlfxlw8qwtUS0R8YjIU7JtM6LM.jpg "Asesinato en el Orient Express")  	    | Murder on the Orient Express        	    | Asesinato en el Orient Express    	| 2017 	    | **IMDB:** 6.5 <br>**TMDB:** 6.8           	| Flatrate: <br>**Movistar**: [LINK](http://ver.movistarplus.es/ficha/asesinato-en-el-orient-express?id=1459142)<br>For Buy: <br>**Itunes** - price: 13.99 eur [LINK](https://itunes.apple.com/es/movie/asesinato-en-el-orient-express/id1298312583?uo=4&at=1000l3V2)<br>**Google play** - price: 14.99 eur [LINK](https://play.google.com/store/movies/details/Asesinato_en_el_Orient_Express?gl=ES&hl=en&id=uXvG1FPIWMc)<br>**Rakuten** - price: 13.99 eur [LINK](https://rakuten.tv/es/movies/asesinato-en-el-orient-express)<br>For Rent: <br>**Microsoft store** - price: 3.99 eur [LINK](https://www.microsoft.com/es-es/p/asesinato-en-el-orient-express/8d6kgwxnt7vm)<br>          	|
 | ![Polar](https://image.tmdb.org/t/p/w92/qOBEpKVLl8Q9CZScbOcRRVISezV.jpg "Polar")  	    | Polar        	    | Polar    	| 2019 	    | **IMDB:** 0 <br>**TMDB:** 6.3           	| Flatrate: <br>**Netflix**: [LINK](http://www.netflix.com/title/80223052)<br>          	|
